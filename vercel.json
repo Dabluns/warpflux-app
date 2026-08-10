@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/flux", "destination": "/index.html" },
+    { "source": "/flux/:path*", "destination": "/:path*" }
+  ]
+}
